@@ -1,0 +1,76 @@
+
+.forex{
+    position: absolute;
+    width: 538px;
+    height: 95px;
+    left: 35%;
+    top: 0.2%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 85px;
+    line-height: 144.19%;
+    /* or 138px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #363636;
+    }
+  #text{
+
+    position: absolute;
+    width: 30%;
+    height: 40px;
+    left: 35%;
+    top: 30%;
+    border: none; 
+    border-bottom: 2px solid black ;
+    padding:10px;
+  }
+  #find{
+
+    width:85px;
+    position: absolute;
+    padding:10px;
+    left: 70%;
+    top: 34%;
+    background:none;
+    border:2px solid rgb(57, 91, 241);
+    border-radius: 15px;
+    transition:0.2s ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #find:hover{
+      border-radius: 0px;
+  }
+
+  #list{
+position:absolute;
+left: 30%;
+    top: 40%;
+    width:70%;
+    list-style:none;
+  }
+
+
+.li{
+padding:10px;
+margin:5px;
+width:35%;
+border:2px solid black;
+height: 20px;
+align-items: center;
+font-family:'Poppins' ,sans-serif;
+transition:0.2s;
+box-shadow: 0px 2px 3px rgb(95, 94, 94);
+color:rgb(53, 52, 52) 
+
+}  
+.li:hover{
+    width:37%;
+    padding:15px;
+    background: rgb(74, 115, 250);
+    color:white;
+    border:2px solid white;
+}
+
